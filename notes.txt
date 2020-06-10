@@ -1,0 +1,55 @@
+Java (What , Why)
+1. WORA - 1995
+2. Open Source till Java 10
+3. Secure —> JRE (Running) —> Check Security
+4. Compile Type Checking (javac Compiler) + Runtime Checking (JRE) —> JVM —> Interpreter
+5. Object Oriented Programming (Not 100% OOPS)
+6. MultiThreading - Parallel 
+
+Setup of Java
+c:\program files\java\ jdk9.0.1\bin
+bin —> javac. —> Java Compiler
+java (Run code) —> JRE 
+Javadoc  —> Doc
+javap —> Decompile 
+
+Env  - O/S
+Set Path in Your O/S Env.
+1. Windows 
+2. Mac
+3. Linux 
+
+Data Types
+Non Decimal
+A) byte 1 byte
+B) short 2 byte
+c) int 4 byte
+d) long 8 byte
+
+Decimal
+float - 4 byte
+double  - 8 byte
+
+char 2 byte (Unicode)
+boolean - 1 byte, 2byte, 4 byte
+True 1 
+False 0 
+
+
+Write Code 
+Notepad
+VSCode —Code Editor
+Eclipse — IDE 
+
+
+
+
+
+Small Talk 
+
+
+@Table(name=“emp_mst”)
+class Emp
+{
+
+}
