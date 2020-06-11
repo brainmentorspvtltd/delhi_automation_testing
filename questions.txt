@@ -1,0 +1,13 @@
+WAP “Amit” “timA”
+
+WAP “silent” “listen” Anagram String
+
+Power of a Number
+2 ^ 5 - With out using predefine function
+
+153 
+ArmStrong Number
+1 ^ 3 - 1
+5 ^ 3 = 125
+3 ^ 3 = 27
+= 153
