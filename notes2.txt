@@ -1,0 +1,22 @@
+Class
+Object
+Instance Var
+Constructor (Default  , Param)
+This - 2 uses (instance var, constructor chaining)
+Set/getter
+toString
+SRP
+DRY
+Encapsulation
+Data Hiding
+JavaDoc
+
+
+What is Constructor?
+Constructor is called when u create a new object. So It will initialise the value during object creation.
+By default we have default constructor , it does nothing it is empty
+We can create Param Constructor for Parameter passing
+Constructor name is same as class name
+Constructor never return any value even it not void
+In one class we have n constructor , Constructor overloading
+Constructor Chaining - One constructor is calling another constructor i.e this()
