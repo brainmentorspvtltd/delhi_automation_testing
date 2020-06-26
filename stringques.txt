@@ -1,0 +1,22 @@
+1. tHiS iS tEsT
+
+This Is Test
+
+
+2. Palindrome String. (Using StringBuffer/ StringBuilder)
+e.g 
+nitin
+3. Java Programming
+J 
+Ja
+Jav
+Java
+Java P
+Java Pr
+
+4. Remove Duplicate Character from String
+“abcbdcab”
+Abcd
+ 
+
+
