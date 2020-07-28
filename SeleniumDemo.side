@@ -1,0 +1,636 @@
+{
+  "id": "3c2d87f9-144f-407e-ad07-a3f0280eddbe",
+  "version": "2.0",
+  "name": "SeleniumDemo",
+  "url": "https://www.makemytrip.com",
+  "tests": [{
+    "id": "1f8d3258-cdbb-4820-b3e9-a8a0bf358166",
+    "name": "Test1",
+    "commands": [{
+      "id": "d9c74a98-522f-4451-a0f5-ba626f8b9822",
+      "comment": "This line is not going to run",
+      "command": "//open",
+      "target": "https://www.google.com/images",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6872a870-4dff-4897-bb61-b2b70f53b81d",
+      "comment": "Selenium is going to use the relative path and open the google images page",
+      "command": "//open",
+      "target": "/images",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4eccb808-2699-49c1-bf4e-3deaf86923a7",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd268434-bfd6-4601-8926-4fd0d0b56545",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Google",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d5909fc-e3a7-4b03-a640-5ffdf1478a23",
+      "comment": "",
+      "command": "//echo",
+      "target": "This line is also going to run because verify doesn't break the test",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cb937f9-f8ba-4fad-a975-1ef96697d26b",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "cars"
+    }, {
+      "id": "e498b71b-b60b-41c2-bef9-b5a049bce2c0",
+      "comment": "",
+      "command": "//click",
+      "target": "name=btnK",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35ff7ebb-4967-42e2-8811-2a502de52ff0",
+      "comment": "",
+      "command": "//verifyTitle",
+      "target": "cars - Google Search",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17e245df-dac7-4114-a9e8-9aca5b968a8a",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "css=.GjRtuc:nth-child(4) > .g:nth-child(1) .LC20lb",
+      "targets": [],
+      "value": "Cars in India, New Cars in 2020, New Model Prices, Offers ..."
+    }, {
+      "id": "ae536a15-5f24-4a38-89ab-899512269f6e",
+      "comment": "",
+      "command": "//assert",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d073b87-fdb9-4410-87b6-ecbc84b09160",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "ef288ec4-ac04-41de-a92a-831eb813d2ea",
+    "name": "MMTtest",
+    "commands": [{
+      "id": "280b0570-d0ef-49cb-b3f6-456913f67e7f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.makemytrip.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92373dd3-cde1-4313-a179-d3a61565cd71",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.autopop__wrap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6158426-e5cd-475e-8741-ff9824640e4f",
+      "comment": "",
+      "command": "//clickAt",
+      "target": "css=div.widgetLoader",
+      "targets": [],
+      "value": "0,0"
+    }, {
+      "id": "ce3150c2-c4c1-42ab-93d8-39b416117ad5",
+      "comment": "",
+      "command": "//click",
+      "target": "css=a.widgetSearchBtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b1116e0-e9ae-4c0f-a7bd-02857eb87108",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromCity",
+      "targets": [
+        ["id=fromCity", "id"],
+        ["css=#fromCity", "css:finder"],
+        ["xpath=//input[@id='fromCity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24e6c77f-d440-4023-93fe-43bb1c6bd2d3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[@id='react-autowhatever-1-section-1-item-1']/div/div[2]",
+      "targets": [
+        ["css=#react-autowhatever-1-section-1-item-1 .pushRight", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-1-item-1']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f6a3c0a-4505-423d-97ed-b933897e47bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=toCity",
+      "targets": [
+        ["id=toCity", "id"],
+        ["css=#toCity", "css:finder"],
+        ["xpath=//input[@id='toCity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cd34791-b8f0-4df0-8f84-0c1373710941",
+      "comment": "selected dubai",
+      "command": "//click",
+      "target": "css=#react-autowhatever-1-section-1-item-9 .pushRight",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "940fcc10-48a3-46d0-a319-54b0bc884a0e",
+      "comment": "",
+      "command": "//sendKeys",
+      "target": "css=.react-autosuggest__input",
+      "targets": [],
+      "value": "new york"
+    }, {
+      "id": "ca06f63d-dbf6-46a3-b3a0-be69fcb75514",
+      "comment": "",
+      "command": "store",
+      "target": "mumbai",
+      "targets": [],
+      "value": "destinationCity"
+    }, {
+      "id": "bd67e222-cb0e-4e89-a631-c49d3783821d",
+      "comment": "",
+      "command": "echo",
+      "target": "Destination city is ${destinationCity}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6cbf1f7-2a74-43c7-877b-fda2ed1ad9b9",
+      "comment": "",
+      "command": "forEach",
+      "target": "destinationCity",
+      "targets": [],
+      "value": "character"
+    }, {
+      "id": "c9a51df3-4beb-4390-adba-8e9c9fc63071",
+      "comment": "",
+      "command": "echo",
+      "target": "${character}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f975056-d3f9-41e8-83eb-2ad163a2060c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.react-autosuggest__input",
+      "targets": [],
+      "value": "${character}"
+    }, {
+      "id": "e9657550-b23d-4630-a6db-888369dac71d",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9e2f939-2507-4cd0-8581-346024c94699",
+      "comment": "",
+      "command": "waitForText",
+      "target": "css=#react-autowhatever-1-section-0-item-0 .pushRight",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 .pushRight", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]", "xpath:position"]
+      ],
+      "value": "BOM"
+    }, {
+      "id": "1fa59efb-6ab0-4bc5-9419-4a9393be6c71",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 .pushRight",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 .pushRight", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa72d77-ba5e-433f-bcf8-6136e8e88b39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fsw_inputBox:nth-child(4) .lbl_input",
+      "targets": [
+        ["css=.fsw_inputBox:nth-child(4) .lbl_input", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'DEPARTURE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0941d559-a25c-411b-a27c-70a65210a7ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Month:nth-child(2) .DayPicker-Week:nth-child(1) > .DayPicker-Day:nth-child(7) p",
+      "targets": [
+        ["css=.DayPicker-Month:nth-child(2) .DayPicker-Week:nth-child(1) > .DayPicker-Day:nth-child(7) p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div[2]/div[3]/div/div[7]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div[7]/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a26aa02-cf75-45a2-a127-fa0285b31397",
+      "comment": "",
+      "command": "click",
+      "target": "css=.reDates .lbl_input",
+      "targets": [
+        ["css=.reDates .lbl_input", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[4]/label/span", "xpath:idRelative"],
+        ["xpath=//div[4]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'RETURN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e0b2605-6d39-4b6a-b03d-2da1b3d16034",
+      "comment": "",
+      "command": "executeScript",
+      "target": "result = document.querySelectorAll(\"div[aria-label='Sat Aug 01 2020']\"); if(result.length > 0) return true; else return false;",
+      "targets": [],
+      "value": "elementFound"
+    }, {
+      "id": "0a595100-7ef0-4e53-8a63-508b8f8c8944",
+      "comment": "",
+      "command": "echo",
+      "target": "Element found - ${elementFound}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be91a243-67b7-43e5-a9fc-80cfb89c540f",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.flightTravllers .lbl_input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d93f191d-feb8-42aa-b14e-537d23f95214",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4fc45ea-2507-46c8-b2cb-42caa9a68de9",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.makeFlex:nth-child(1) > .guestCounter > li:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78265a15-e818-4890-91fa-73ec4fbb5f1e",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.pushRight > .guestCounter > li:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a21210d5-a6c1-438f-9449-7918d1a86b0a",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.classSelect > li:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de526243-14ce-4db6-bd64-b5af333a854f",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btnApply",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c64292c1-f0ba-4a12-9a8a-9166c154ab50",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.primaryBtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b98fa209-d4a1-40f5-85fa-9335d2e97ab1",
+      "comment": "",
+      "command": "//pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89e24782-cdb5-4433-9a2c-a0115c903253",
+      "comment": "",
+      "command": "//close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb3ee777-0125-4873-87b7-c9e8d68523f1",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b4eacd4f-85b2-460c-9db6-56f7f112dbd8",
+    "name": "LoopsTest",
+    "commands": [{
+      "id": "7bdd43ac-ff16-4077-b2e3-988dd6fbad01",
+      "comment": "",
+      "command": "store",
+      "target": "0",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "72673657-aeb6-4502-8e50-64098b0bf3b3",
+      "comment": "",
+      "command": "times",
+      "target": "10",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "955f9f91-2f56-40ba-926f-32f055a0ee81",
+      "comment": "",
+      "command": "echo",
+      "target": "i is ${i}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d974bd7-bb80-452d-a288-7c6507422cab",
+      "comment": "",
+      "command": "executeScript",
+      "target": "counter = ${i}; counter++; return counter",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "8895f522-4898-4988-ac99-3762751f823d",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a44622fe-dd9b-4828-9029-7ec919c46e03",
+      "comment": "",
+      "command": "if",
+      "target": "${i} == \"10\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fe8fa6a-d078-4caf-9e67-4e47a19470a4",
+      "comment": "",
+      "command": "echo",
+      "target": "We did it!! JS works in IDE..",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99c3a349-19ed-47c6-8736-c7adafcc0d59",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e291dc3b-7f3d-43fd-a7d1-9fcf7f203b86",
+    "name": "RecordingTest",
+    "commands": [{
+      "id": "85518599-c265-4e58-91c5-70e7b9649b20",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb2207d2-4ef6-4f4c-906f-d4ff3c70817d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea961dec-ed48-4eff-ab29-b5f2931d77e0",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.loginModal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09a7639a-f3e7-4630-a27c-b56577135a91",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=fromCity",
+      "targets": [
+        ["id=fromCity", "id"],
+        ["css=#fromCity", "css:finder"],
+        ["xpath=//input[@id='fromCity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e290730-31dc-4818-ae75-12ced2dd7a9d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/div/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2fa8328-fae3-42a6-a641-79a085eeb08f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchCity",
+      "targets": [
+        ["css=.searchCity", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b29fcb04-84b6-452d-a197-4b62bc4ee437",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-1 .calc60 > .font14",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-1 .calc60 > .font14", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-1']/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Delhi, India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "092b2f90-1f5f-4827-a3e4-6f714c43f128",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-1 .calc60 > .font14",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-1 .calc60 > .font14", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-1']/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Mumbai, India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b053b9d-1ffe-487b-8643-32249fb9e2f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Month:nth-child(2) .DayPicker-Week:nth-child(1) > .DayPicker-Day:nth-child(3) p",
+      "targets": [
+        ["css=.DayPicker-Month:nth-child(2) .DayPicker-Week:nth-child(1) > .DayPicker-Day:nth-child(3) p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div[2]/div[3]/div/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div[3]/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2399ed57-ae55-4dea-aab4-751172dd89a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flightTravllers .blackText",
+      "targets": [
+        ["css=.flightTravllers .blackText", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/label/p", "xpath:idRelative"],
+        ["xpath=//div[5]/label/p", "xpath:position"],
+        ["xpath=//p[contains(.,'6 Travellers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d16b0940-f526-47d7-b0ac-d498ca833073",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(2)",
+      "targets": [
+        ["css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6995c883-401a-4243-be74-198706f0d71c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.makeFlex:nth-child(1) > .guestCounter > li:nth-child(1)",
+      "targets": [
+        ["css=.makeFlex:nth-child(1) > .guestCounter > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ef1af17-d220-44f7-a232-467d6ac1f9d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pushRight > .guestCounter > li:nth-child(3)",
+      "targets": [
+        ["css=.pushRight > .guestCounter > li:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/div/div/div[2]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "688f9e40-5872-402f-97fe-97db4f3af264",
+      "comment": "",
+      "command": "click",
+      "target": "css=.classSelect > li:nth-child(1)",
+      "targets": [
+        ["css=.classSelect > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/ul[2]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Economy/Premium Economy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59e7907d-9021-45ab-9e38-f404d0b54a49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnApply",
+      "targets": [
+        ["css=.btnApply", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'APPLY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ddceda0-30b3-4bdf-abdd-f968d8afb634",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primaryBtn",
+      "targets": [
+        ["css=.primaryBtn", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dbafe3d-865a-4152-8186-6bb60e00be6f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.font22 > b:nth-child(1)",
+      "targets": [
+        ["css=.font22 > b:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='left-side--wrapper']/p/b", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/p/b", "xpath:position"],
+        ["xpath=//b[contains(.,'New Delhi')]", "xpath:innerText"]
+      ],
+      "value": "New Delhi"
+    }, {
+      "id": "ee20b4ad-ff71-4fc4-a986-1172d2b57f17",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Makemytrip",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3bbe56b-1b14-4aa9-a243-dbbc7eac878e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=sorter_btn_return",
+      "targets": [
+        ["id=sorter_btn_return", "id"],
+        ["css=#sorter_btn_return", "css:finder"],
+        ["xpath=//button[@id='sorter_btn_return']", "xpath:attributes"],
+        ["xpath=//div[@id='left-side--wrapper']/div/div/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e643aa53-57b3-4774-9309-dfb7e96b411e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 1,
+    "tests": ["1f8d3258-cdbb-4820-b3e9-a8a0bf358166"]
+  }],
+  "urls": ["https://www.google.com/", "https://www.google.com:8080/", "https://www.makemytrip.com/"],
+  "plugins": []
+}
