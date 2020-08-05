@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5433" started-at="2020-08-05T10:21:54 IST" finished-at="2020-08-05T10:21:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5433" started-at="2020-08-05T10:21:54 IST" finished-at="2020-08-05T10:21:59 IST">
+      <class name="com.brainmentors.testingapp.webtesting.AppTest">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.brainmentors.testingapp.webtesting.AppTest@3b084709]" name="testCase2" duration-ms="2972" started-at="2020-08-05T10:21:54 IST" finished-at="2020-08-05T10:21:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCricAPI()[pri:0, instance:com.brainmentors.testingapp.webtesting.AppTest@3b084709]" name="testCricAPI" duration-ms="2422" started-at="2020-08-05T10:21:57 IST" finished-at="2020-08-05T10:21:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCricAPI -->
+      </class> <!-- com.brainmentors.testingapp.webtesting.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
