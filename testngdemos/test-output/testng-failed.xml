@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [cms]">
+  <test thread-count="5" name="cmstesting(failed)">
+    <classes>
+      <class name="com.brainmentors.testngapp.testngdemos.AppTest">
+        <methods>
+          <include name="start"/>
+          <include name="test5"/>
+          <include name="afterAllMethods"/>
+          <include name="appTestStop"/>
+          <include name="begin"/>
+          <include name="appTestStart"/>
+          <include name="beforeAllMethods"/>
+          <include name="end"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- com.brainmentors.testngapp.testngdemos.AppTest -->
+    </classes>
+  </test> <!-- cmstesting(failed) -->
+</suite> <!-- Failed suite [cms] -->
