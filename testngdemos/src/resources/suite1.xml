@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite  name="cms">
+
+<test name="cmstesting">
+<classes>
+<class name="com.brainmentors.testngapp.testngdemos.AppTest"/>
+<class name="com.brainmentors.testngapp.testngdemos.Third"/>
+</classes>
+</test>
+</suite>
