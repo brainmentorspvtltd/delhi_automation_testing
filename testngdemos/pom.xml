@@ -24,6 +24,15 @@
     <version>7.1.0</version>
     <scope>test</scope>
 </dependency>
+<dependency>
+    <groupId>com.brainmentors.testingapp</groupId>
+    <artifactId>webtesting</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <scope>system</scope>
+    <systemPath>/Users/amit/.m2/repository/com/brainmentors/testingapp/webtesting/0.0.1-SNAPSHOT/webtesting-0.0.1-SNAPSHOT.jar</systemPath>
+    
+</dependency>
+
   </dependencies>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

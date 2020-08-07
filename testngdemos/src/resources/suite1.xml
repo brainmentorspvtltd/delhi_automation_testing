@@ -2,11 +2,27 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite  name="cms">
-
 <test name="cmstesting">
+
+<groups>
+<run>
+<include name="mygroup"/>
+</run>
+</groups>
 <classes>
-<class name="com.brainmentors.testngapp.testngdemos.AppTest"/>
-<class name="com.brainmentors.testngapp.testngdemos.Third"/>
+<class name="com.brainmentors.testngapp.testngdemos.groups.SavingAccount"/>
+<class name="com.brainmentors.testngapp.testngdemos.groups.CurrentAccount"/>
+<class name="com.brainmentors.testingapp.webtesting.AppTest"/>
 </classes>
 </test>
+<!-- <test name="cmstesting">
+<parameter name="env" value="qct"/>
+ <classes>
+<class name="com.brainmentors.testngapp.testngdemos.groups.SavingAccount"/>
+<class name="com.brainmentors.testngapp.testngdemos.groups.CurrentAccount"/>
+ 
+<class name="com.brainmentors.testngapp.testngdemos.AppTest"/>
+<class name="com.brainmentors.testngapp.testngdemos.Third"/>
+</classes>  
+</test> -->
 </suite>

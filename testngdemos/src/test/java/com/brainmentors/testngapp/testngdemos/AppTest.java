@@ -2,8 +2,6 @@ package com.brainmentors.testngapp.testngdemos;
 
 import java.util.InputMismatchException;
 
-import javax.swing.InputMap;
-
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -31,6 +29,12 @@ public class AppTest{
 		 emp.setName("Ram");
 		 emp.setSalary(9999);
 		System.out.println("Before Suite "+x);
+	}
+	
+	@Test
+	//@Parameters("env")
+	public void testParameter() {
+		System.out.println("Param ::::::::::::::====> ");
 	}
 	
 	@DataProvider(name = "givemedata")

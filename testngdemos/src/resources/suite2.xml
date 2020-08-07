@@ -5,7 +5,9 @@
 
 <test name="kmstesting">
 <classes>
-<class name="com.brainmentors.testngapp.testngdemos.TestSecond"/>
+<class name="com.brainmentors.testingapp.webtesting.AppTest"/>
+
+
 
 </classes>
 </test>
