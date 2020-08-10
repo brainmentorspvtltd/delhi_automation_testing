@@ -6,7 +6,10 @@
 <test name="kmstesting">
 <classes>
 <class name="com.brainmentors.testingapp.webtesting.AppTest"/>
-
+<class name="com.brainmentors.testingapp.webtesting.AppTest1"/>
+<class name="com.brainmentors.testingapp.webtesting.AppTest2"/>
+<class name="com.brainmentors.testingapp.webtesting.AppTest3"/>
+<class name="com.brainmentors.testingapp.webtesting.AppTest4"/>
 
 
 </classes>
