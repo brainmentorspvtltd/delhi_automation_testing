@@ -7,4 +7,5 @@ String USER_XLS_COLS = "usercol";
 String DRIVER_NAME = "drivername";
 String DRIVER_PATH = "driverpath";
 String URL = "http://202.54.216.12:1000/companion/LoginPage.aspx";
+String PDF_REPORT_KEY = "pdfreport";
 }
