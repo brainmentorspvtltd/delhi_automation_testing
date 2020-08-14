@@ -1,14 +1,13 @@
 package com.brainmentors.datadriven.mycompanion.test.user;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -65,23 +64,33 @@ public class UserTest {
 	//@Test(dataProvider = "userdata")
 	//public void testLogin(String userid, String password, String code) {
 	//@Test
+	@Test(timeOut = 7000)
 	public void testLogin() {
 		//System.out.println("TEST LOGIN "+userid + " "+password+ " "+code);
 		System.setProperty(PropertyReader.getValue(Constants.DRIVER_NAME), PropertyReader.getValue(Constants.DRIVER_PATH));
 		driver = new ChromeDriver();
+		//long startTime = System.currentTimeMillis();
 		driver.get(Constants.URL);
 		WebElement userTxt = driver.findElement(By.id("username"));
 		userTxt.sendKeys("companion");
 		WebElement passwordTxt = driver.findElement(By.id("Password"));
+		String type = passwordTxt.getAttribute("type");
+		Assert.assertEquals(type ,"password");
 		passwordTxt.sendKeys("companion");
 		WebElement codeTxt = driver.findElement(By.id("TxtImgVer"));
 		codeTxt.sendKeys("11");
 		WebElement loginBt = driver.findElement(By.id("login_Click"));
 		loginBt.click();
+		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("heading"))));
 		String text  = driver.findElement(By.id("heading")).getText();
 		Assert.assertTrue(text.contains("MY"));
+		// Tab Switch 
+		ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.switchTo().window(tabs.get(1));
+		driver.switchTo().window(tabs.get(0));
 		/*
 		try {
 			WebDriverWait wait = new WebDriverWait(driver, 20);
