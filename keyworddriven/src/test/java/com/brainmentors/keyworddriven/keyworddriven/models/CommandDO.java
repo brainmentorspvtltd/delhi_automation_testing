@@ -32,7 +32,7 @@ public void setValue(String value) {
 }
 @Override
 public String toString() {
-	return "CommandDO [command=" + command + ", target=" + target + ", value=" + value + "]";
+	return "CommandDO [command=" + command + ", target=" + target + ", value=" + value + "]\n";
 }
 
 }

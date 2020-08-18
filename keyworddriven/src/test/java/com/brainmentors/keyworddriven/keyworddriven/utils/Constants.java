@@ -12,4 +12,5 @@ String URL = "http://202.54.216.12:1000/companion/LoginPage.aspx";
 String PDF_REPORT_KEY = "pdfreport";
 String CHROME ="chrome";
 String FIREFOX = "firefox";
+String MAXCELLS = "maxcell";
 }

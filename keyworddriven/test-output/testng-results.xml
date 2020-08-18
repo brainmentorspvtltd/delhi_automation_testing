@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="keywordtest" duration-ms="0" started-at="2020-08-18T11:20:33 IST" finished-at="2020-08-18T11:20:33 IST">
+    <groups>
+    </groups>
+  </suite> <!-- keywordtest -->
+  <suite name="keywordsuite" duration-ms="7114" started-at="2020-08-18T11:20:16 IST" finished-at="2020-08-18T11:20:23 IST">
+    <groups>
+    </groups>
+    <test name="keywordtesting" duration-ms="7114" started-at="2020-08-18T11:20:16 IST" finished-at="2020-08-18T11:20:23 IST">
+      <class name="com.brainmentors.keyworddriven.keyworddriven.test.CommandExecutor">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.brainmentors.keyworddriven.keyworddriven.test.CommandExecutor@cb51256]" name="init" is-config="true" duration-ms="10" started-at="2020-08-18T11:20:16 IST" finished-at="2020-08-18T11:20:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:com.brainmentors.keyworddriven.keyworddriven.test.CommandExecutor@cb51256]" name="execute" duration-ms="7077" started-at="2020-08-18T11:20:16 IST" finished-at="2020-08-18T11:20:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+      </class> <!-- com.brainmentors.keyworddriven.keyworddriven.test.CommandExecutor -->
+    </test> <!-- keywordtesting -->
+  </suite> <!-- keywordsuite -->
+</testng-results>

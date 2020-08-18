@@ -1,5 +1,7 @@
 package com.brainmentors.keyworddriven.keyworddriven.helper;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,6 +35,32 @@ public class Command implements CommandConstants{
 			throw new KeywordDrivenException("URL Value is Missing in XLS");
 		}
 		driver.get(url);
+	}
+	private List<WebElement> getElements(String target) {
+		String arr[] = target.split("=");
+		String targetType =arr[0];
+		String targetValue = arr[1];
+		List<WebElement> element = null;
+		if(ID.equals(targetType.toLowerCase())) {
+			element = driver.findElements(By.id(targetValue));
+		}
+		else
+		if(NAME.equals(targetType.toLowerCase())) {
+			element = driver.findElements(By.name(targetValue));
+		}
+		else
+		if(CLASS.equals(targetType.toLowerCase())) {
+			element = driver.findElements(By.className(targetValue));
+		}
+		else
+		if(CSS_SELECTOR.equals(targetType.toLowerCase())) {
+			element = driver.findElements(By.cssSelector(targetValue));
+		}
+		else
+			if(XPATH.equals(targetType.toLowerCase())) {
+				element = driver.findElements(By.xpath(targetValue));
+			}
+		return element;
 	}
 	private WebElement getElement(String target) {
 		String arr[] = target.split("=");
@@ -75,11 +103,16 @@ public class Command implements CommandConstants{
 		if(Validation.isEmpty(target)) {
 			throw new KeywordDrivenException("Click Command Target is Missing in XLS");
 		}
-		if(Validation.isEmpty(value)) {
-			throw new KeywordDrivenException("Click Command Value is Missing in XLS");
-		}
+//		if(Validation.isEmpty(value)) {
+//			throw new KeywordDrivenException("Click Command Value is Missing in XLS");
+//		}
 		WebElement element = getElement(target);
 		element.click();
+	}
+	public void close() {
+		if(driver!=null) {
+			driver.close();
+		}
 	}
 	public boolean assertTrue(String target , String value) {
 		if(Validation.isEmpty(target)) {
@@ -88,8 +121,9 @@ public class Command implements CommandConstants{
 		if(Validation.isEmpty(value)) {
 			throw new KeywordDrivenException("Click Command Value is Missing in XLS");
 		}
-		WebElement element = getElement(target);
-		return element.getText().equals(value);
+		List<WebElement> elements = getElements(target);
+		return elements.size() == Integer.parseInt(value);
+//		return element.getText().equals(value);
 		//return true;
 	}
 
