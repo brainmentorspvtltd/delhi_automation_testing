@@ -3,12 +3,16 @@ package com.brainmentors.frameworks.hybrid.helpers;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.brainmentors.frameworks.hybrid.exceptions.CommandException;
+import com.brainmentors.frameworks.hybrid.exceptions.HybridException;
 import com.brainmentors.frameworks.hybrid.utils.CommandConstants;
 import com.brainmentors.frameworks.hybrid.utils.Constants;
 import com.brainmentors.frameworks.hybrid.utils.PropertyReader;
@@ -90,7 +94,7 @@ public class Command implements CommandConstants{
 			}
 		return element;
 	}
-	public void type(String target , String value) {
+	public  void type(String target , String value) {
 		if(Validation.isEmpty(target)) {
 			throw new CommandException("Type Command Target is Missing in XLS");
 		}
@@ -110,6 +114,20 @@ public class Command implements CommandConstants{
 //		}
 		WebElement element = getElement(target);
 		element.click();
+		int timeOut = Integer.parseInt(PropertyReader.getValue(Constants.TIMEOUT));
+		WebDriverWait wait = new WebDriverWait(driver, timeOut);
+		try {
+		wait.until(ExpectedConditions.alertIsPresent());
+		System.out.println("Alert is Present in Case of Failure");
+		driver.switchTo().alert().accept();
+		}
+		catch(TimeoutException e) {
+			System.out.println("Alert Not Present in Case of Success");
+			//throw new HybridException("TIMEOUT HAPPENS ALERT ")
+		}
+		
+		
+		
 	}
 	public void close() {
 		if(driver!=null) {

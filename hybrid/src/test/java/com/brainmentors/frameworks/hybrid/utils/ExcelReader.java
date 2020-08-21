@@ -65,7 +65,7 @@ public interface ExcelReader {
 					//Cell temp = currentRow.getCell(i, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
 					//System.out.println("Temp is "+temp.getCellType());
 					if(cell.getCellType()==CellType.BLANK) {
-						System.out.println("BLANK CELL "+cellCount);
+						//System.out.println("BLANK CELL "+cellCount);
 						continue;
 					}
 //					
@@ -97,7 +97,7 @@ public interface ExcelReader {
 						}
 					}
 				} // Cell Ends
-				System.out.println("ROW ENDS");
+				//System.out.println("ROW ENDS");
 				//cellCount=0;
 				commands.add(command);
 			}

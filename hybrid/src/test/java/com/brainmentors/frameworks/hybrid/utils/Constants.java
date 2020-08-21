@@ -13,4 +13,5 @@ String PDF_REPORT_KEY = "pdfreport";
 String CHROME ="chrome";
 String FIREFOX = "firefox";
 String MAXCELLS = "maxcell";
+String TIMEOUT = "timeout";
 }

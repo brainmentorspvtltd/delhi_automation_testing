@@ -4,7 +4,7 @@ public class CommandDO {
 private String command;
 private String target;
 private String value;
-private String type;
+private String type;  // C or V
 public String getCommand() {
 	return command;
 }
