@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8545" started-at="2020-08-25T10:53:33 IST" finished-at="2020-08-25T10:53:41 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8545" started-at="2020-08-25T10:53:33 IST" finished-at="2020-08-25T10:53:41 IST">
+      <class name="com.brainmentors.grid.gridtest.AppTest">
+        <test-method status="PASS" signature="gridTest()[pri:0, instance:com.brainmentors.grid.gridtest.AppTest@3224f60b]" name="gridTest" duration-ms="8511" started-at="2020-08-25T10:53:33 IST" finished-at="2020-08-25T10:53:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gridTest -->
+      </class> <!-- com.brainmentors.grid.gridtest.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
