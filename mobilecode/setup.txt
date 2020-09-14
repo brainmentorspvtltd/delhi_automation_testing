@@ -1,0 +1,15 @@
+Setup
+JDK 1.8 Download
+Path Set 
+JAVA_HOME = Before Bin
+ANDROID_HOME = Android / sdk
+Node Install
+Download Appium Server npm i appium -g
+Maven Download
+M2_HOME = Maven Before bin
+PATH Set
+Download Eclipse
+Appium Jars + Selenium Jars
+
+
+
