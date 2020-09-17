@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mynewtesting" duration-ms="13437" started-at="2020-09-17T11:31:15 IST" finished-at="2020-09-17T11:31:29 IST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="13437" started-at="2020-09-17T11:31:15 IST" finished-at="2020-09-17T11:31:29 IST">
+      <class name="com.tpddl.appiumtesting.test.Five">
+        <test-method status="PASS" signature="three()[pri:0, instance:com.tpddl.appiumtesting.test.Five@167fdd33]" name="three" duration-ms="13400" started-at="2020-09-17T11:31:15 IST" finished-at="2020-09-17T11:31:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+      </class> <!-- com.tpddl.appiumtesting.test.Five -->
+    </test> <!-- test1 -->
+  </suite> <!-- mynewtesting -->
+</testng-results>
