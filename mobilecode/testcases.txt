@@ -1,0 +1,10 @@
+5 Test Cases (Maven + TestNG) + Appium + Controls
+1. Click on App Option —> Count the List. —> Compare the count with Assert
+
+2. Click on Views Options —> Buttons —> Off Button —> Click on off and toggle it to On —> Check the label of button converted into On (Assertion)
+
+3. Click on Views Options —> Text —> TextSwitcher —> Check Value is 3 , After Clicking 3 times.
+
+4. Click on Views Options —> Rating Bar —> 4.5 or 5 Rating
+
+5. Click on Views Options —> Date Widgets —> Inline —> Set 3:45 PM
