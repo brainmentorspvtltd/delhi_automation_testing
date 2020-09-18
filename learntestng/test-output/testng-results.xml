@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="1" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="learntestng" duration-ms="5100" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:32 IST">
+    <groups>
+      <group name="mygroup">
+        <method signature="AppTest.anotherMethod()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="anotherMethod" class="com.tpddl.apps.learntestng.AppTest"/>
+        <method signature="UserTest.profile()[pri:0, instance:com.tpddl.apps.learntestng.UserTest@30b8a058]" name="profile" class="com.tpddl.apps.learntestng.UserTest"/>
+      </group> <!-- mygroup -->
+    </groups>
+    <test name="test1" duration-ms="63" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+      <class name="com.tpddl.apps.learntestng.AppTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="start" is-config="true" duration-ms="1" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="anotherMethod()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="anotherMethod" duration-ms="6" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherMethod -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="stop" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="collectData()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="collectData" duration-ms="1" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectData -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="start" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="stop" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="start" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="testRegister(java.lang.String)[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="testRegister" duration-ms="3" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="stop" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="start" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="testUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="testUserLogin" duration-ms="2" started-at="2020-09-18T10:54:27 IST" data-provider="mydata" finished-at="2020-09-18T10:54:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="stop" is-config="true" duration-ms="1" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="start" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="FAIL" signature="testUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="testUserLogin" duration-ms="2" started-at="2020-09-18T10:54:27 IST" data-provider="mydata" finished-at="2020-09-18T10:54:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [222] but found [ram]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [222] but found [ram]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.tpddl.apps.learntestng.AppTest.testUserLogin(AppTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="stop" is-config="true" duration-ms="1" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="start" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="FAIL" signature="testUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="testUserLogin" duration-ms="1" started-at="2020-09-18T10:54:27 IST" data-provider="mydata" finished-at="2020-09-18T10:54:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shyam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [333] but found [shyam]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [333] but found [shyam]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.tpddl.apps.learntestng.AppTest.testUserLogin(AppTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="stop" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tpddl.apps.learntestng.AppTest -->
+      <class name="com.tpddl.apps.learntestng.UserTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tpddl.apps.learntestng.UserTest@30b8a058]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="profile()[pri:0, instance:com.tpddl.apps.learntestng.UserTest@30b8a058]" name="profile" duration-ms="1" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profile -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tpddl.apps.learntestng.UserTest@30b8a058]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.tpddl.apps.learntestng.UserTest -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="4" started-at="2020-09-18T10:54:32 IST" finished-at="2020-09-18T10:54:32 IST">
+      <class name="com.tpddl.apps.learntestng.EmployeeTest">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.tpddl.apps.learntestng.EmployeeTest@3b088d51]" name="test3" duration-ms="2" started-at="2020-09-18T10:54:32 IST" finished-at="2020-09-18T10:54:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.tpddl.apps.learntestng.EmployeeTest -->
+      <class name="com.tpddl.apps.learntestng.AppTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2020-09-18T10:54:27 IST" finished-at="2020-09-18T10:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tpddl.apps.learntestng.AppTest@68bbe345]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-09-18T10:54:37 IST" finished-at="2020-09-18T10:54:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tpddl.apps.learntestng.AppTest -->
+    </test> <!-- test2 -->
+  </suite> <!-- learntestng -->
+</testng-results>

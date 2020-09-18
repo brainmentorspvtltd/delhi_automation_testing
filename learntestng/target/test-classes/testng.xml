@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="learntestng" parallel="tests" thread-count="5">
+<listeners>
+<listener class-name="com.tpddl.apps.learntestng.CustomReport"/>
+<listener class-name="com.tpddl.apps.learntestng.CustomReport2"/>
+</listeners>
+<!-- <test name="test3">
+<classes>
+<class name="com.tpddl.apps.learntestng.AppTest"/>
+<class name="com.tpddl.apps.learntestng.UserTest"/>
+</classes>
+</test> -->
+<test name="test1">
+<parameter name="source" value="xls"/>
+<classes>
+<class name="com.tpddl.apps.learntestng.AppTest"/>
+<class name="com.tpddl.apps.learntestng.UserTest"/>
+</classes>
+<!-- <groups>
+<run>
+<include name="mygroup"/>
+<exclude name="abcd"/>
+</run>
+</groups> -->
+<!-- <classes>
+<class name="com.tpddl.apps.learntestng.AppTest"/>
+<class name="com.tpddl.apps.learntestng.UserTest"/>
+</classes> -->
+</test>
+<test name="test2">
+<classes>
+<class name="com.tpddl.apps.learntestng.EmployeeTest"/>
+</classes>
+</test>
+</suite>
